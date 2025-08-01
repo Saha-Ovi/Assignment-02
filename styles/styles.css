@@ -88,3 +88,46 @@ body
 {
     font-size: 1.25rem;
 }
+/* Our plants section */
+.our-plant
+{
+    text-align: center;
+    margin: 50px;
+}
+.card-section
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+.card{
+  margin-bottom: 30px; 
+  text-align: center; 
+  gap: 20px;
+}
+.btn-primary
+{
+    padding: 10px 15px;
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    border: none;
+    width: calc(100% - 20px);
+}
+.our-plant h2
+{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.our-plant p
+{
+    font-size: 1.25rem;
+}
+.card h4{
+    font-size: 1.25rem;
+    color: rgba(17, 17, 17, 1);
+}
+.card p
+{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
