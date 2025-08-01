@@ -1,0 +1,90 @@
+/* Font */
+
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared styles */
+body
+{
+    background-color: rgba(245, 248, 255, 1);
+}
+.max-width
+{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+/* color */
+.navy
+{
+    color: rgba(37, 36, 50, 1);
+}
+.black
+{
+   color: rgba(0, 0, 0, 1);
+}
+.light-grey
+{
+    color: rgba(137, 135, 161, 1);
+}
+.orange
+{
+    color: rgba(233, 90, 8, 1);
+}
+.black-grey
+{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* header section */
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    /* margin-left: 50px; */
+}
+.main-menu ul
+{
+    display: flex;
+}
+.main-menu ul li
+{
+    list-style: none;
+    margin-right: 30px;
+}
+.main-menu ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+/* Banner-section */
+.banner
+{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 100px;
+}
+/* .banner-content{
+    justify-content: end;
+} */
+.banner-content h2
+{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-description
+{
+    font-size: 1.25rem;
+}
