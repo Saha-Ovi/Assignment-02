@@ -44,6 +44,10 @@ body
 {
     color: rgba(0, 0, 0, 0.5);
 }
+.white
+{
+    color: rgba(255, 255, 255, 1);
+}
 
 /* header section */
 .navbar
@@ -130,4 +134,118 @@ body
 {
     font-size: 1.25rem;
     font-weight: bold;
+}
+/* plant lover section */
+
+.plant-lover
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.plant-badge
+{
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    z-index: +2;
+    margin-left: 340px;
+    margin-top: -120px;
+}
+.plant-store
+{
+    height: 600px;
+    width: 500px;
+}
+/* .plant-description
+{
+    padding-left: 60px;
+} */
+.plant-description h3
+{
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+.plant-description ul li p
+{
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* Latest Deal Cover */
+
+.deal-content
+{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.deal-title
+{
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+.deal-description
+{
+    font-size: 1.25rem;
+
+}
+.deal-card-container
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 200px);
+    gap: 20px;
+
+}
+.card-box
+{
+    position: relative;
+    overflow: hidden;
+    border-radius: 22px;
+}
+
+.card-box img
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: fill;
+    filter: brightness(50%);
+}
+.right-box
+{
+    height: 100%;
+    grid-row: span 2;
+} 
+.card-box-text
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.left-title
+{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.right-title
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.card-box-text a
+{
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 1.25rem;
+    background-color: transparent;
 }
