@@ -174,7 +174,10 @@ body
     color: rgba(0, 0, 0, 0.5);
 }
 /* Latest Deal Cover */
-
+.deal-section
+{
+    margin-bottom: 100px;
+}
 .deal-content
 {
     text-align: center;
@@ -248,4 +251,54 @@ body
     text-decoration: underline;
     font-size: 1.25rem;
     background-color: transparent;
+}
+/* Join the bench section */
+.btn-primary-2
+{
+    padding: 10px 15px;
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.email-section
+{
+    text-align: center;
+}
+.email-sections
+{
+    position: relative;
+    
+}
+.email-sections img
+{
+    width: 100%;
+    display: block;
+}
+.text-email
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input-group
+{
+    display: flex;
+}
+.input-group input
+{
+    width:800px;
+    height:40px;
+}
+.text-email h2
+{
+    font-size: 3.25rem;
+    font-weight: bold;
 }
